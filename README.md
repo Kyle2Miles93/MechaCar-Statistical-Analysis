@@ -4,9 +4,9 @@
 
 Below is a screenshot of the output of the linear regression as well as the summary stats:
 
-[linear regression for mpg](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/R_Script_linear_reg.png)
+![linear regression for mpg](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/R_Script_linear_reg.png)
 
-[summary stats](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/R_Script_Summary.png)
+![summary stats](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/R_Script_Summary.png)
 
 1) *Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?*
   - The **Spoiler Angle** and **AWD** variables were non-random.
