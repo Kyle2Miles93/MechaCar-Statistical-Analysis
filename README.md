@@ -18,4 +18,17 @@ Below is a screenshot of the output of the linear regression as well as the summ
   - It does because it returns an adjusted R-squared value of .6825. 
      * This means there is a good probability there is a relationship between response variable (mpg) and the other predictor variables in the dataset.
 
-## 
+## Summary Statistics
+
+In summary, the summary statistics from the dataset: **Suspension_Coil.csv**'s 'PSI' column looks like this:
+
+![total_summary](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/Total_Summary_df.png)
+
+And the same dataset grouped by Manufacturing Lot:
+
+![lot_summary](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/Lot_Summary_df.png)
+
+
+* Based on these statistics, it looks like only Manufacturing Lot 3 ***does not*** the specs requirements for PSI. Its PSI variance stat is well over 100 at ≈ 170.
+* The total variance for PSI looks good at ≈ 62 PSI, while the individual lots 1 and 2 are well below 100 at under 10 PSI respectively.
+ 
