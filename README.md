@@ -48,4 +48,30 @@ According to these outputs, we can safely conclude, based on the respective p-va
 
 The third lot's p-value is below 5%.
  
+## Study Design: MechaCar vs Competition
+
+Using these variables:
+
+* Vehicle weight
+* fuel efficiency
+* horsepower
+
+We can conduct a mulitple linear regression test to find out if both vehicle weight and horsepower effect fuel efficiency across manufacturers.
+
+We would conduct this test because:
+
+* There are two independent variables that are both continuous tyopes.
+* There is one continuous dependent metric.
+
+The data we would need is located in both the MechaCar_dataframe and the Suspension Coil dataframe already:
+
+1) the horsepower for each car across manufacturers
+2) the fuel efficiency in miles/km per gallon/liter for every car
+3) the horsepower in a floating point value.
+
+
+
+
+ 
+ 
  
