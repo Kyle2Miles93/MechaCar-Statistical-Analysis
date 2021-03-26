@@ -46,6 +46,6 @@ And the same dataset grouped by Manufacturing Lot:
  
 According to these outputs, we can safely conclude, based on the respective p-values of for each Manufacturing Lot, that only for the 3rd lot we can safely reject the null hypothesis. For the other ones we must certainly fail to reject the null hypothesis because their p-values are 100% and over 50% respectively. 
 
-
+The third lot's p-value is below 5%.
  
  
