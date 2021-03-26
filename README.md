@@ -32,3 +32,20 @@ And the same dataset grouped by Manufacturing Lot:
 * Based on these statistics, it looks like only Manufacturing Lot 3 ***does not*** the specs requirements for PSI. Its PSI variance stat is well over 100 at ≈ 170.
 * The total variance for PSI looks good at ≈ 62 PSI, while the individual lots 1 and 2 are well below 100 at under 10 PSI respectively.
  
+ ## T-Tests on Suspension Coils
+ 
+ Here is a picture of the t-test output on the Suspension coil dataframe:
+ 
+ ![t-test on dataframe](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/t-test.png)
+ 
+ And here are two pictures showing the same test filtered for each Manufacturing Lot:
+ 
+ ![lot 1](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/Lot_1_t-test.png)
+ 
+ ![lots 2 + 3](https://github.com/Kyle2Miles93/MechaCar-Statistical-Analysis/blob/main/Resources/Lot_2_3_t-tests.png)
+ 
+According to these outputs, we can safely conclude, based on the respective p-values of for each Manufacturing Lot, that only for the 3rd lot we can safely reject the null hypothesis. For the other ones we must certainly fail to reject the null hypothesis because their p-values are 100% and over 50% respectively. 
+
+
+ 
+ 
